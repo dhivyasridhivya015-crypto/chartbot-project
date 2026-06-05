@@ -15,6 +15,12 @@ while True:
     elif "contact" in user:
         print("Bot: Contact us at vaishali@codectechnologies.in")
 
+    elif "fees" in user:
+        print("Bot: please contact our office for fee details.") 
+
+    elif "location" in user:
+        print("Bot: our office is located in salem.")       
+
     elif "bye" in user:
         print("Bot: Thank you for contacting Codec Technologies!")
         break
